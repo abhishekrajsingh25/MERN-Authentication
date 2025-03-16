@@ -26,8 +26,6 @@ A full-stack authentication system built using the MERN stack (MongoDB, Express,
 - Node.js with Express.js
 - MongoDB with Mongoose (for database management)
 - JWT Authentication
-- Multer for image uploads
-- Stripe / Razorpay integration for payments
 
 ### Additional Tools:
 
