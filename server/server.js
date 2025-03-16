@@ -20,6 +20,10 @@ app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
+app.get("/", (req, res) => {
+  res.send("API Working");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
